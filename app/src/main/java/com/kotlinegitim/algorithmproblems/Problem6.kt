@@ -7,7 +7,6 @@ fun main() {
     val belirtilenEleman = belirtilenElmaniAl(list,secilenEleman)
     if (belirtilenEleman == true) {
         println("Seçilen eleman listede var : " + secilenEleman )
-
     }
 }
 
