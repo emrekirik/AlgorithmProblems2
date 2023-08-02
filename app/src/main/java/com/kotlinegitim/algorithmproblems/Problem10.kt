@@ -22,7 +22,6 @@ fun <K, V> kesisimBulma(map1: Map<K, V>, map2: Map<K, V>): Map<K, V>{
 
     for ((key, value) in map1) {
         if (map2.containsKey(key)) {
-            // Ortak anahtarları bulduk, değeri yeni kesişim HashMap'e ekleyelim
             kesisim[key] = value
         }
     }
